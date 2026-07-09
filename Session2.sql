@@ -7,3 +7,7 @@ CREATE TABLE student (
     department VARCHAR(50)
 );
 
+
+INSERT INTO student VALUES
+(101, 'John', 'Computer Science'),
+(102, 'Alice', 'Mathematics');
