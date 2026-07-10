@@ -11,3 +11,5 @@ CREATE TABLE student (
 INSERT INTO student VALUES
 (101, 'John', 'Computer Science'),
 (102, 'Alice', 'Mathematics');
+(103, 'Bob', 'Physics'),
+(104, 'Eve', 'Chemistry');
