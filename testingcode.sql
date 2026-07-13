@@ -9,3 +9,5 @@ select '2024' as year,
            then 'Leap Year'
            else 'Not a leap year'
        end as result;
+
+  truncate table company_db.customer;     
