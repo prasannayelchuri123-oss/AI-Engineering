@@ -42,9 +42,9 @@ SELECT
     length,
     count(film_id) AS total_films
 FROM sakila.film
-WHERE title LIKE 'T%';
--- GROUP BY length
--- HAVING count(film_id) > 5;
+WHERE title LIKE 'T%'
+GROUP BY length
+HAVING count(film_id) > 5;
  
 -- 12. List all actors who have appeared in more than 10 films.
 select first_name as actors, actor_id as films from sakila.actor where actor_id > 10;
